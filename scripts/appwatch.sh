@@ -1,13 +1,15 @@
 #!/bin/bash
 
+
 RESOURCEGROUP=$1
 DATAURL=$2
-
-if [ -z "$RESOURCEGROUP" ]; then
-echo "Usage: appwatch.sh resource_group_name"
-exit 1
+echo "debug 1"
+if [ -z "$RESOURCEGROUP" ]
+then
+	echo "Usage: appwatch.sh resource_group_name"
+	exit 1
 fi
-
+echo "debug 2"
 sudo apt update
 sudo apt install tmux -y
 

@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Location": {
-            "value": "northeurope"
+            "value": "westeurope"
         },
         "StorageAccount.Name": {
             "value": "khcasa"

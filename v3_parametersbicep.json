@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Location": {
-            "value": "northeurope"
+            "value": "westeurope"
         },
         "StorageAccount_prefix": {
-            "value": "asd"
+            "value": "ststorage"
         },
         "LogAnalytics_Workspace_Name": {
-            "value": "khcala"
+            "value": "stcala"
         },
         "AppInsights_Name": {
-            "value": "khcaai"
+            "value": "stcaai"
         },
         "ContainerApps_Environment_Name": {
-            "value": "khcaenv001"
+            "value": "stcaenv001"
         },
         "ContainerApps_HttpApi_CurrentRevisionName": {
             "value": "blue"
